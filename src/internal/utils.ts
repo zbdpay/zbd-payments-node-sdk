@@ -1,4 +1,4 @@
-// File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+// ZBD Payments Node SDK
 
 export * from './utils/values';
 export * from './utils/base64';

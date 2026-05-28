@@ -1,4 +1,4 @@
-# ZBD Payments TypeScript SDK
+# ZBD Payments Node SDK
 
 [![NPM version](<https://img.shields.io/npm/v/@zbdpay/payments-sdk.svg?label=npm%20(stable)>)](https://npmjs.org/package/@zbdpay/payments-sdk) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@zbdpay/payments-sdk)
 
@@ -292,7 +292,7 @@ const client = new ZbdPayments({
 To modify proxy behavior, you can provide custom `fetchOptions` that add runtime-specific proxy
 options to requests:
 
-<img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/node.svg" align="top" width="18" height="21"> **Node** <sup>[[docs](https://github.com/nodejs/undici/blob/main/docs/docs/api/ProxyAgent.md#example---proxyagent-with-fetch)]</sup>
+**Node**
 
 ```ts
 import ZbdPayments from '@zbdpay/payments-sdk';
@@ -306,7 +306,7 @@ const client = new ZbdPayments({
 });
 ```
 
-<img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/bun.svg" align="top" width="18" height="21"> **Bun** <sup>[[docs](https://bun.sh/guides/http/proxy)]</sup>
+**Bun**
 
 ```ts
 import ZbdPayments from '@zbdpay/payments-sdk';
@@ -318,7 +318,7 @@ const client = new ZbdPayments({
 });
 ```
 
-<img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/deno.svg" align="top" width="18" height="21"> **Deno** <sup>[[docs](https://docs.deno.com/api/deno/~/Deno.createHttpClient)]</sup>
+**Deno**
 
 ```ts
 import ZbdPayments from 'npm:@zbdpay/payments-sdk';

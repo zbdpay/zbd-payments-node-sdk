@@ -1,4 +1,4 @@
-// File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+// ZBD Payments Node SDK
 
 import { APIResource } from '../core/resource';
 import { APIPromise } from '../core/api-promise';

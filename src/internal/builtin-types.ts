@@ -1,4 +1,4 @@
-// File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+// ZBD Payments Node SDK
 
 export type Fetch = (input: string | URL | Request, init?: RequestInit) => Promise<Response>;
 

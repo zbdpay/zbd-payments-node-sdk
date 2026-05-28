@@ -1,4 +1,4 @@
-// File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+// ZBD Payments Node SDK
 
 export { EmailPayments, type EmailPaymentSendParams } from './email-payments';
 export { Gamertags, type GamertagCreateChargeParams, type GamertagSendPaymentParams } from './gamertags';

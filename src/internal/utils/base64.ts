@@ -1,4 +1,4 @@
-// File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+// ZBD Payments Node SDK
 
 import { ZbdPaymentsError } from '../../core/error';
 import { encodeUTF8 } from './bytes';
